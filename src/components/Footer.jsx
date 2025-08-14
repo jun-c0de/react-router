@@ -4,13 +4,13 @@ import { snsLinks } from '../data/sns'
 const Footer = () => {
     return (
         <footer>
-            <h2>Footer</h2>
+            <h2>title</h2>
             <ul className="sns-list">
                 {snsLinks.map((sns) => (
                     <li key={sns.id}>
                         <a href={sns.url} target='_blank'>
                             <img src={sns.icon} alt={sns.name} />
-                            <span>{sns.handle}</span>
+                            <span>{sns.name}</span>
                         </a>
                     </li>
                 ))}
