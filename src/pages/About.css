@@ -1,0 +1,6 @@
+.About .list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}

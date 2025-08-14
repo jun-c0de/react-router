@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import AboutHero from './about/AboutHero';
+import './About.css';
 
 const About = () => {
     const infoList = [
@@ -17,7 +18,7 @@ const About = () => {
             <div>
                 <AboutHero/>
             </div>
-            <ul>
+            <ul className='list'>
                 {infoList.map((b) => (
                     <li key={b.id}>
                         <Link to={`/About/${b.id}`}>
