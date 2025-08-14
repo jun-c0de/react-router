@@ -6,7 +6,7 @@ const Nav = () => {
 
     return (
         <nav>
-            <h1><a href="/">Title</a></h1>
+            <h1><a href="/">성준</a></h1>
             <ul className="nav-list">
                 <li>
                     <NavLink to="/">홈</NavLink>
